@@ -3,7 +3,7 @@ const httpServer = require("http").createServer(app);
 const PORT = process.env.PORT || 3030;
 const io = require("socket.io")(httpServer, {
     cors: {
-      origin: "https://singhhakshat.github.io/StonePaperScissorsMultiplayer",
+      origin: "https://singhhakshat.github.io",
       methods: ["GET", "POST"]
     }
   });
